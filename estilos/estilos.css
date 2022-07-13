@@ -39,3 +39,22 @@ main {
         height: 471px;
         border-radius: 3px;
 }
+
+#redes {
+        text-align: right;
+}
+
+#redes > a > img {
+        width: 50px;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 7px black;
+        box-sizing: border-box;
+}
+
+#redes > a > img:hover {
+        border: 2px solid rgba(255, 255, 255, 0.6);
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.8);
+        transition: transform .5s, border .4s;
+}
